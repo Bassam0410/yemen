@@ -1,0 +1,217 @@
+body.index {
+    background-image: url(../img/1751px-Sanaa_HDR_\(16482367935\).jpg);
+
+    background-size: cover;
+}
+
+body.food {
+    background-image: url(../img/food\ background.jpg);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body.history {
+    background-image: url(../img/history\ background.jpg);
+    background-size: cover;
+}
+
+body .main {
+    background-color: azure;
+}
+
+.photo .image {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.photo .image>img {
+    border: solid black 1px;
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.main .container .asima img {
+    width: 30px;
+    position: absolute;
+}
+
+.main .container .asima img.pakistan {
+    left: 62%;
+    top: 48%;
+}
+
+.main .container .asima img.sudan {
+    left: 10%;
+    top: 36%;
+}
+
+.main .container .asima img.bangaladesh {
+    right: 9%;
+    top: 75%;
+    height: 37px;
+    width: 23px
+}
+
+.main .container .asima img.iran {
+    top: 30%;
+    left: 52%;
+    width: 20px;
+}
+
+.main .container .asima img.yemen {
+    top: 53%;
+    left: 31%;
+}
+
+
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.head .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+
+
+}
+
+/* change color  */
+.head .image {
+    width: 500px;
+    overflow: hidden;
+    border-radius: 20px;
+
+
+}
+
+.link {
+    background-color: #996c6c;
+    border-radius: 5px;
+    color: white;
+    width: fit-content;
+}
+
+.link a {
+    color: white;
+    text-decoration: none;
+
+}
+
+
+.head p {
+    width: fit-content;
+    background-color: darkgray;
+    padding: 5px 8px;
+    border-radius: 10px;
+    margin-top: 2px;
+}
+
+/* the flag  */
+.container .flag {
+    width: 300px;
+    border: white solid 2px;
+
+}
+
+.flag .red {
+    height: 50px;
+    background-color: red;
+    color: red;
+}
+
+.flag .white {
+    height: 50px;
+    color: white;
+    background-color: white;
+}
+
+.flag .black {
+    height: 50px;
+    color: black;
+    background-color: black;
+}
+
+/* info */
+.head .container .info p {
+    background-color: #996c6c;
+    border: solid 10px black;
+}
+
+/* second page history  */
+/*  civilization */
+.civilization .text {
+    background-color: dimgrey;
+    width: fit-content;
+    padding: 5px 0 5px 5px;
+    position: absolute;
+    top: 290px;
+    margin-top: -10px;
+    border-radius: 10px;
+}
+
+.civilization .images img {
+    border-radius: 8px;
+    position: absolute;
+    top: 100px;
+}
+
+/* main */
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+
+}
+
+.main .images img {
+    border-radius: 10px;
+    position: absolute;
+    top: 100px;
+    right: 10px;
+}
+
+.try {
+    width: fit-content;
+    background-color: dimgray;
+    top: 410px;
+    position: absolute;
+    right: 10px;
+    padding: 10px;
+
+}
+
+/* food  */
+/* mandi */
+.mandi {
+    background-color: khaki;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.mandi img {
+    border-radius: 15px;
+}
+
+.bent {
+    background-color: khaki;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.bent img {
+    border-radius: 15px;
+}
+
+/* background */
+.photo.image img {
+    width: fit-content;
+}
