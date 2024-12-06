@@ -15,6 +15,7 @@ body.food {
 body.history {
     background-image: url(../img/history\ background.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 body .main {
