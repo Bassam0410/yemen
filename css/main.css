@@ -13,8 +13,10 @@ body.food {
 }
 
 body.history {
+    height:100vh;
     background-image: url(../img/history\ background.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 body .main {
@@ -39,8 +41,9 @@ body .main {
 }
 
 .main .container .asima img.pakistan {
-    left: 62%;
-    top: 48%;
+    left: 61%;
+    top: 51%;
+    width:40px;
 }
 
 .main .container .asima img.sudan {
@@ -56,9 +59,9 @@ body .main {
 }
 
 .main .container .asima img.iran {
-    top: 30%;
+    top: 33%;
     left: 52%;
-    width: 20px;
+    width: 60px;
 }
 
 .main .container .asima img.yemen {
@@ -74,37 +77,29 @@ body .main {
 
 .head .content {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: end;
+    flex-direction: column;
+    align-items: flex-end;
 
 
 }
 
 /* change color  */
 .head .image {
-    width: 500px;
+    width: 350px;
     overflow: hidden;
     border-radius: 20px;
 
 
 }
 
-.link {
-    background-color: #996c6c;
-    border-radius: 5px;
-    color: white;
-    width: fit-content;
-}
-
 .link a {
-    color: white;
     text-decoration: none;
 
 }
 
 
 .head p {
-    width: fit-content;
+    width: 350px;
     background-color: darkgray;
     padding: 5px 8px;
     border-radius: 10px;
@@ -145,7 +140,7 @@ body .main {
 /* second page history  */
 /*  civilization */
 .civilization .text {
-    background-color: dimgrey;
+    background-color: lightgoldenrodyellow;
     width: fit-content;
     padding: 5px 0 5px 5px;
     position: absolute;
@@ -177,7 +172,7 @@ body .main {
 
 .try {
     width: fit-content;
-    background-color: dimgray;
+    background-color: lightgoldenrodyellow;
     top: 410px;
     position: absolute;
     right: 10px;
@@ -214,4 +209,27 @@ body .main {
 /* background */
 .photo.image img {
     width: fit-content;
+}
+
+i{
+    padding: 5px 7px;
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left: 90%;
+    transition:0.3s
+}
+i:hover{
+    color:black;
+}
+
+body.qr .image  {
+    width:500px;
+    height:500px;
+    margin:auto ;
+}
+body.qr .image img{
+    max-width:100%;
+    max-height:100%;
+    
 }
