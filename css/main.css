@@ -17,6 +17,10 @@ body.history {
     background-image: url(../img/history\ background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+<<<<<<< HEAD
+=======
+    height:100vh;
+>>>>>>> 81624413163cc15a39001727e0e039fca699a6e3
 }
 
 body .main {
@@ -210,6 +214,7 @@ body .main {
 .photo.image img {
     width: fit-content;
 }
+<<<<<<< HEAD
 
 i{
     padding: 5px 7px;
@@ -233,3 +238,5 @@ body.qr .image img{
     max-height:100%;
     
 }
+=======
+>>>>>>> 81624413163cc15a39001727e0e039fca699a6e3
